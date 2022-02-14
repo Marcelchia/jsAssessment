@@ -25,7 +25,6 @@ class Field {
 
     runGame() {
         let gameOn = true;
-        console.log("Start Game");
 
         while (gameOn) {
             //print the field
