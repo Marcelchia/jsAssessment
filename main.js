@@ -13,7 +13,7 @@ const col = 10;
 // create a Field Class
 
 class Field {
-    //creating arrays inside array
+    
     constructor(field) {
         this.field = field;
         this.locationX = 0;
