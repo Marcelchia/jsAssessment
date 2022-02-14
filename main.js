@@ -33,21 +33,21 @@ class Field {
             //user to move
             this.userDirection();
 
-            // If player not in bound, display message that they lost, gameOn = false will end the loop
+            // If player is out of bound, display message that they lost, gameOn = false, loop ends
             if (!this.isWithinBound()) {
                
                 console.log("Out of bounds - Game End!");
                 gameOn = false;
             }
 
-            // If player drops in hole, game ends, display message that they lost, gameOn = false will end loop
+            // If player drops into hole, game ends, display message that they lost, gameOn = false, loop ends
             else if (this.droppedIntoHole()) {
                
                 console.log("Sorry, you fell down a hole!");
                 gameOn = false;
             }
 
-            //If player found the hat, display message that they won, gameOn = false will end loop
+            //If player found the hat, display message that they won, gameOn = false , loop ends
             else if (this.foundTheHat()) {
                 console.log("Congrats, you found your hat!");
                 gameOn = false;
