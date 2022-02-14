@@ -1,0 +1,16 @@
+{
+	"dependencies": {
+		"clear-screen": "^1.0.0",
+		"prompt-sync": "^4.2.0"
+	},
+	"name": "findyouhat",
+	"version": "1.0.0",
+	"description": "javascript assessment",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"main": "node main.js"
+	},
+	"author": "Marcel Chia",
+	"license": "ISC"
+}
