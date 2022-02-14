@@ -35,16 +35,14 @@ class Field {
 
             // If player not in bound, display message that they lost, gameOn = false will end the loop
             if (!this.isWithinBound()) {
-                // term sets text color to red when player goes out of bound
-                // term.red();
+               
                 console.log("Out of bounds - Game End!");
                 gameOn = false;
             }
 
             // If player drops in hole, game ends, display message that they lost, gameOn = false will end loop
             else if (this.droppedIntoHole()) {
-                // term sets text color to red when player dropped in hole
-                // term.red();
+               
                 console.log("Sorry, you fell down a hole!");
                 gameOn = false;
             }
