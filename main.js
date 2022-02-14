@@ -60,7 +60,7 @@ class Field {
 
     userDirection() {
         const direction = prompt(
-            "Which way? Enter U, D, L, or R. "
+            "Whats your next move? Enter U, D, L, or R. "
         ).toUpperCase();
         switch (direction) {
             case "U":
