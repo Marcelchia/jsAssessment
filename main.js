@@ -30,7 +30,7 @@ class Field {
         while (gameOn) {
             //print the field
             this.print();
-
+            //user to move
             this.userDirection();
 
             // If player not in bound, display message that they lost, gameOn = false will end the loop
